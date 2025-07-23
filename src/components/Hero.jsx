@@ -16,7 +16,7 @@ export default function Hero() {
           <p className="tag">Website Development</p>
           <h1>Delivering <span>IT solutions</span> that enable you to work smarter.</h1>
           <p>We build high-performance, user-friendly websites tailored to your business goals.</p>
-         <Link to="/contactus" className="btn pink">Discover More</Link>
+         <Link to="/who-we-are" className="btn pink">Discover More</Link>
 
           
         </div>
