@@ -47,7 +47,7 @@ const Services = () => {
       </div>
 
       <div className="button-row" data-aos="zoom-in" data-aos-delay="800">
-        <Link to="/contactus" className="btn pink">View More</Link>
+        <Link to="ourservices" className="btn pink">View More</Link>
 
       </div>
     </>
