@@ -98,14 +98,13 @@ const Contact = () => {
           <div className="contact-info">
             <div>
               <strong>Connect with us</strong><br />
-              📧 hello@brandmode.com<br />
-              📞 (888) 807-5000
+              📧 enquirysjm@gmail.com<br />
+              📞 +91 9528285735
             </div>
             <div>
               <strong>Address</strong><br />
-              📍 123 Innovation Avenue,<br />
-              Suite 400 Creativity District,<br />
-              Metropolis City, CA 90210<br />
+              📍 Meerut Near by Shoprix Mall<br />
+            
               ⏰ Monday – Friday 9am to 5pm
             </div>
           </div>

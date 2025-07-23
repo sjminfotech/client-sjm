@@ -15,9 +15,9 @@
         
           <p>Transforming ideas into digital excellence. Elevate your online presence with strategic digital solutions.</p>
           <div className="social-icons">
-            <a href="#"><img src={facebook} alt="FB" /></a>
-            <a href="#"><img src={instagram} alt="Instagram" /></a>
-            <a href="#"><img src={linkedin} alt="LinkedIn" /></a>
+            <a href="https://www.facebook.com/share/1AiEc98sqA/"><img src={facebook} alt="FB" /></a>
+            <a href="https://www.instagram.com/sjm.infotech?igsh=MWF3ZjM1OWo4aWt5dg=="><img src={instagram} alt="Instagram" /></a>
+            <a href="https://www.linkedin.com/in/sanju-kumar-b2976a372?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src={linkedin} alt="LinkedIn" /></a>
           </div>
         </div>
 

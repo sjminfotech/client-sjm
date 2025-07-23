@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+
 
 const Services = () => {
   return (
@@ -45,7 +47,8 @@ const Services = () => {
       </div>
 
       <div className="button-row" data-aos="zoom-in" data-aos-delay="800">
-        <button className="btn">View More</button>
+        <Link to="/contactus" className="btn pink">View More</Link>
+
       </div>
     </>
   )

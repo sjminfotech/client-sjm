@@ -1,5 +1,7 @@
 import React from 'react';
 import heroVideo from "../assets/VIDEO/hero.mp4";
+import { Link } from 'react-router-dom';
+
 
 
 export default function Hero() {
@@ -14,7 +16,9 @@ export default function Hero() {
           <p className="tag">Website Development</p>
           <h1>Delivering <span>IT solutions</span> that enable you to work smarter.</h1>
           <p>We build high-performance, user-friendly websites tailored to your business goals.</p>
-          <a href="#discover" className="btn pink">Discover More</a>
+         <Link to="/contactus" className="btn pink">Discover More</Link>
+
+          
         </div>
       </div>
     </section>
