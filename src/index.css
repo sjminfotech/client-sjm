@@ -1,4 +1,6 @@
 
+/* universal code here  */
+/* universal code here  */
 
 *{
     h2{
@@ -19,16 +21,9 @@ body {
   }
 
 }
-/* Hide hamburger by default */
-.hamburger {
-  display: none;
-  font-size: 28px;
-  cursor: pointer;
-  color: #fff;
-}
-.logo-area{
-    display: flex;
-}
+
+
+
 .loading-section{
      font-family: 'Poppins', sans-serif;
       display: flex;
@@ -38,67 +33,8 @@ body {
       gap: 100px;
       margin-top: 40px;
 }
-.logo {
-  background-repeat: no-repeat;
-  background-image: url(./ASSECTS/IMAGES/logo.png);
-  background-size: contain;
-  background-position:center;
-  width: 50px;   /* fixed width */
-  height: 85px;   /* fixed height */
-}
-.logo2{
-    background-repeat: no-repeat;
-  background-image: url(./ASSECTS/IMAGES/logo2.png);
-  background-size: contain;
-  background-position:center;
-  width: 200px;   /* fixed width */
-  height: 85px;   /* fixed height */
-}
 
 
-.close {
-  font-size: 24px;
-  text-align: right;
-  margin-bottom: 10px;
-  cursor: pointer;
-  display: none;
-}
-
-/* Responsive menu toggle */
-@media (max-width: 768px) {
-  .hamburger {
-    display: block;
-  }
-
-  .menu {
-    position: fixed;
-    top: 0;
-    right: -100%;
-    width: 250px;
-    height: 100%;
-    background: #141428;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 40px 20px;
-    z-index: 999;
-    transition: right 0.3s ease;
-  }
-
-  .menu.active {
-    right: 0;
-  }
-
-  .close {
-    display: block;
-    color: white;
-  }
-
-  .menu a {
-    font-size: 18px;
-    color: #fff;
-  }
-}
 
 .hero {
   height: 70vh;
@@ -123,21 +59,9 @@ a {
   padding: -1px;
 }
 
-.header {
-    background: #000000;
-    position: fixed;
-    padding: 0px 0;
-    left: 0;
-    right: 0;
-    z-index:3;
-}
 
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
+
+
 
 .hero-video {
     position:relative;
