@@ -1,0 +1,106 @@
+.section-title {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .section-title h2 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .section-title p {
+      color: #aaa;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      max-width: 1200px;
+        margin: 80px 150px 0px 150px;
+    }
+
+    .service-card {
+      background-color: #111;
+      border-radius: 10px;
+      padding: 20px;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      min-height: 250px;
+      box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+
+    .service-card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 15px #ff00cc, 0 0 20px #3333ff;
+    }
+
+    .service-card h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+        /* display: flex;
+      justify-content: center;
+      align-items: center; */
+    }
+
+    .service-card p {
+      color: #ccc;
+      font-size: 14px;
+      line-height: 1.6;
+        display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .service-card .icon {
+      font-size: 30px;
+      margin-bottom: 15px;
+      /* display: flex;
+      justify-content: center;
+      align-items: center; */
+    }
+
+    .service-card::before {
+      content: '';
+      position: absolute;
+      top : 0;
+      right: 0;
+      width: 10px;
+      height: 100%;
+     background: linear-gradient(45deg, #ff00cc, #3333ff);
+      clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+       border-bottom-right-radius: 5px;
+    }
+    .service-card:hover::before {
+      background: linear-gradient(45deg, #ff00cc, #3333ff);
+    }
+    @media (max-width: 768px) {
+      .services-grid {
+        grid-template-columns: 1fr;
+        margin: 0;
+      }
+
+      .service-card {
+        margin: 20px 0;
+      }
+    }       
+
+    .button-row {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+      gap: 15px;
+    }
+
+
+  
+
+    @media (max-width: 600px) {
+      .section-title h2 {
+        font-size: 26px;
+      }
+    }
