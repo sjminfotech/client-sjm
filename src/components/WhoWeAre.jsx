@@ -2,6 +2,7 @@ import React from "react";
 import teamImage from "../assets/IMAGES/S.jpeg"; // ✅ make sure path is correct
 import About from "./about";
 import Footer from "./Footer";
+import './WhoWeAre.css'
 const WhoWeAre = () => {
   return (
     

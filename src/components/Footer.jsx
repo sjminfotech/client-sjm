@@ -3,6 +3,7 @@
   import facebook from '../assets/IMAGES/facebook.png';
   import instagram from '../assets/IMAGES/instagram.png';
   import linkedin from '../assets/IMAGES/linkedin.png';
+  import './Footer.css'
 
   export default function Footer() {
 

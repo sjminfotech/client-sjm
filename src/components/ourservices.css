@@ -1,0 +1,46 @@
+.loading-section{
+     font-family: 'Poppins', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 100px;
+      margin-top: 40px;
+}
+
+.features {
+  padding: 60px 20px;
+}
+
+.features-list {
+  columns: 2;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+
+.process {
+  padding: 60px 20px;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: center;
+}
+
+.step {
+  background: #1e1e3f;
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1;
+  min-width: 200px;
+  transition: transform 0.3s;
+}
+
+.step:hover {
+  transform: translateY(-10px);
+   box-shadow: 0 0 15px #ff00cc, 0 0 20px #3333ff;
+}
