@@ -34,7 +34,7 @@ const About = () => (
             organizations of all sizes humanize their communications and
             personalize their customer experiences.
           </p>
-          <Link to="/contactus" className="btn pink">
+          <Link to="/ourservices" className="btn pink">
             Discover More
           </Link>
         </div>
