@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import CEO from "../assets/IMAGES/ceo.png";
+ import './about.css';
 const About = () => (
   <>
     <div className="container">
@@ -81,8 +82,8 @@ const About = () => (
         <div className="team-card">
           <div className="photo-wrapper">
             <img
-              src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/b7168ae0-e418-4c97-840d-ae1f8969d7f9.png"
-              alt="Portrait of Lilly Hammond with folded arms, wearing orange shirt"
+              src="https://i.ibb.co/ZRYvDXc9/Whats-App-Image-2025-07-26-at-16-22-58-c96ccff1.jpg"
+              alt="Portrait of Shekhar Kushwaha with folded arms, wearing orange shirt"
               onError={(e) => {
                 e.target.onerror = null;
                 e.target.src =
@@ -90,12 +91,10 @@ const About = () => (
               }}
             />
           </div>
-          <div className="team-name">Lilly Hammond</div>
+          <div className="team-name">Shekhar Kushwaha</div>
           <div className="role-badge">Junior Designer</div>
           <div className="desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam
+            Shekhar Kushwaha plays a vital role in leading marketing initiatives with a strategic mindset and a strong focus on brand visibility. Known for his creative campaigns and communication skills, he ensures outreach efforts connect with the right audience and drive meaningful engagement for the company’s growth.
           </div>
           <div className="social-links">
             <a href="#" title="Twitter">
@@ -130,9 +129,7 @@ const About = () => (
           <div className="team-name">William Hill</div>
           <div className="role-badge">Project Manager</div>
           <div className="desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam
+          `A Project Manager plays a key role in ensuring timely delivery, team coordination, and smooth execution of projects. They oversee the full workflow, track progress, and communicate clearly to keep everyone aligned and focused.`,
           </div>
           <div className="social-links">
             <a href="#" title="Twitter">
@@ -156,20 +153,18 @@ const About = () => (
         <div className="team-card">
           <div className="photo-wrapper">
             <img
-              src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/15045b36-039b-4685-a576-42dc7386c402.png"
-              alt="Portrait of Joshua Woods"
+              src="https://i.ibb.co/ycB88wZf/Screenshot-2025-07-26-161340.png"
+              alt="Portrait of Samarth Vashishtha"
               onError={(e) => {
                 e.target.onerror = null;
                 e.target.src = "https://placehold.co/200x200?text=No+Image";
               }}
             />
           </div>
-          <div className="team-name">Joshua Woods</div>
+          <div className="team-name">Samarth Vashishtha</div>
           <div className="role-badge">Senior Designer</div>
           <div className="desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam
+            Samarth Vashishtha is a highly creative and detail-oriented Senior Designer known for crafting visually stunning user interfaces and brand visuals. With a sharp eye for aesthetics and modern design trends, he brings ideas to life through clean layouts, bold color theory, and seamless user experience strategies.
           </div>
           <div className="social-links">
             <a href="#" title="Twitter">
@@ -190,6 +185,13 @@ const About = () => (
           </div>
         </div>
       </div>
+       <div id="bottom-center-btn">
+  <Link to="/team" className="btn pink">
+    Discover More
+  </Link>
+</div>
+
+      
       <div className="features-section">
         <div className="features-image">
           <img
