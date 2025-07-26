@@ -1,6 +1,8 @@
 import React from 'react';
-import Footer from './Footer'; // Make sure Footer.jsx is in the same folder or update path
 import './Team.css'; // Optional: move the <style> block into this CSS file if desired
+ 
+
+
 
 const teamMembers = [
   {

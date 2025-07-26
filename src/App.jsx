@@ -5,7 +5,7 @@ import HomePage from "./components/HomePage";
 import WhoWeAre from "./components/WhoWeAre";
 import Contactus from './components/contactus';
 import Ourservices from './components/ourservices';
-import Team from './components/Team'; // Import the Team component   
+import Team from './components/Team'; // Import the Team component
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';        
 
 function App() {
