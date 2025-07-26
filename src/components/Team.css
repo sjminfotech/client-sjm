@@ -1,0 +1,116 @@
+body {
+  background-color: #121226;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+
+/* Underline below the header */
+.underline-bar {
+  width: 65px;
+  height: 3px;
+  background: linear-gradient(90deg, #db1eff, #2421f2);
+  margin: 0.5rem auto 2rem auto;
+  border-radius: 9999px;
+}
+
+/* Card background */
+.card-bg {
+  background-color: #25263e;
+  border-radius: 12px;
+  padding: 2rem 1.5rem 2.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.2);
+}
+
+.card-bg:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgb(219 30 255 / 0.5);
+  background: linear-gradient(145deg, #2d2e4a, #1c1c2f);
+}
+
+.profile-pic {
+  width: 96px;
+  height: 96px;
+  border-radius: 9999px;
+  object-fit: cover;
+  border: 2px solid #6d21f2;
+  margin-bottom: 1.2rem;
+  transition: filter 0.3s ease;
+}
+
+.card-bg:hover .profile-pic {
+  filter: drop-shadow(0 0 4px #db1eff);
+}
+
+.name {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.role-badge {
+  background: linear-gradient(90deg, #db1eff, #2421f2);
+  color: black;
+  font-size: 0.875rem;
+  padding: 0.3rem 1.1rem;
+  border-radius: 8px;
+  margin-bottom: 1.2rem;
+  user-select: none;
+  cursor: default;
+  transition: background 0.3s ease;
+}
+
+.card-bg:hover .role-badge {
+  background: linear-gradient(90deg, #f630dc, #342bf7);
+  color: #fce4ff;
+  box-shadow: 0 0 8px #db1effaa;
+}
+
+.description {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  text-align: center;
+  margin-bottom: 1.8rem;
+  padding: 0 0.3rem;
+}
+
+.social-icon:hover {
+  background: linear-gradient(90deg, #db1eff, #2421f2);
+  color: white;
+  box-shadow: 0 0 10px #db1eff;
+}
+
+/* Icon SVG style */
+ .social-icon svg {
+  height: 1.25rem;
+  width: 1.25rem;
+  stroke-width: 2;
+} 
+
+/* Responsive grid container */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem 2.5rem;
+  padding: 0 1rem;
+  max-width: 1200px;
+  margin: 0 auto 3rem auto;
+}
+
+/* Section container */
+section {
+  padding: 3rem 0 6rem 0;
+}
+
+#bottom-center-btn {
+  position: relative; /* Use relative on parent if needed */
+  bottom: 20px; /* Distance from bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}

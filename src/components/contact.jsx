@@ -99,7 +99,7 @@ const Contact = () => {
           <div className="contact-info">
             <div>
               <strong>Connect with us</strong><br />
-              📧 enquirysjm@gmail.com<br />
+              📧 support@SJMINFOTEC.COM<br />
               📞 +91 9528285735
             </div>
             <div>
