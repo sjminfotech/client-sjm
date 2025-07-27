@@ -31,7 +31,7 @@ export default function Header() {
               src={logo2}
               alt="Logo 2"
               style={{
-                height: '40px',
+                height: '30px',
                 objectFit: 'contain',
                 filter: 'brightness(1000%)',
               }}
