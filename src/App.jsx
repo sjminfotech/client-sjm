@@ -5,7 +5,8 @@ import HomePage from "./components/HomePage";
 import WhoWeAre from "./components/WhoWeAre";
 import Contactus from './components/contactus';
 import Ourservices from './components/ourservices';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Team from './components/Team'; // Import the Team component
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';        
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
         <Route path="/who-we-are" element={<WhoWeAre />} />
       <Route path='/contactus' element={<Contactus/>}/>
          <Route path="/ourservices" element={<Ourservices />} />
+         <Route path="/team" element={<Team />} />
+
       </Routes>
     </Router>
   );
