@@ -18,7 +18,11 @@
   list-style: none;
   padding: 0;
 }
-
+@media (max-width: 768px) {
+    .service-card {
+        margin: 20px 13px;
+    }
+}
 
 .process {
   padding: 60px 20px;
